@@ -17,6 +17,8 @@ namespace Forexus.Client
             var processor = new MessageProcessor();
 
             //Act
+            //NOTE: Processig takes less than 1 second if code in MessageProcessor.cs line 74 is commented. 
+            //At this line (line 74) we process all Viewers of message and it could take a while. It is the main place to consider optimisation
             List<Message> messages = processor.Process(filesDirectory);
 
             //Assert

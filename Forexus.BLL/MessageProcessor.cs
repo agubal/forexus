@@ -27,7 +27,6 @@ namespace Forexus.BLL
             //Process files in paralell mode:
             var messages = new List<Message>();
             Parallel.ForEach(csvFiles, file => ConvertFileToMessages(file, messages));
-
             return messages;
         }
 

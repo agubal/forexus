@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forexus.DAL", "Forexus.DAL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forexus.Entities", "Forexus.Entities\Forexus.Entities.csproj", "{A6B8BA0B-4646-49D6-8766-8D7171BCA150}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processing", "Processing", "{AC493AE3-A992-47EC-A4D7-6C86C98B5D1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D78F190D-402B-46D1-8FDE-1F21D62603E4} = {AC493AE3-A992-47EC-A4D7-6C86C98B5D1A}
+		{2B11380D-C48B-4043-BD49-C77B25F513AD} = {AC493AE3-A992-47EC-A4D7-6C86C98B5D1A}
+		{A6B8BA0B-4646-49D6-8766-8D7171BCA150} = {AC493AE3-A992-47EC-A4D7-6C86C98B5D1A}
 	EndGlobalSection
 EndGlobal
